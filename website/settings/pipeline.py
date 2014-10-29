@@ -9,6 +9,7 @@ PIPELINE_JS = {
             'js/app.js',
         ),
         'output_filename': 'js/app.js',
+        'template_name': 'js-tag',
     },
 }
 
@@ -18,6 +19,7 @@ PIPELINE_CSS = {
             'css/app.css',
         },
         'output_filename': 'css/app.css',
+        'template_name': 'css-tag',
     },
 }
 # ────────────────────────────────────────────────────────────────────────────┘
