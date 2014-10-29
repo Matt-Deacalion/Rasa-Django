@@ -166,6 +166,15 @@ INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 # ────────────────────────────────────────────────────────────────────────────┘
 
 
+# ──┤ PIPELINE CONFIGURATION ├────────────────────────────────────────────────┐
+from .pipeline import (
+    PIPELINE_ENABLED,
+    PIPELINE_JS,
+    PIPELINE_CSS,
+)
+# ────────────────────────────────────────────────────────────────────────────┘
+
+
 # ──┤ WSGI CONFIGURATION ├────────────────────────────────────────────────────┐
 # See: http://serk.io/ref/settings/#wsgi-application
 WSGI_APPLICATION = 'wsgi.application'
