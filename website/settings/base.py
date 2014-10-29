@@ -83,6 +83,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     str(SITE_ROOT / 'static'),
 )
+
+# See: http://serk.io/ref/settings/#std:setting-STATICFILES_STORAGE
+STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
 # ────────────────────────────────────────────────────────────────────────────┘
 
 
@@ -155,6 +158,7 @@ DJANGO_APPS = (
 # Apps specific for this project go here
 LOCAL_APPS = (
     'apps.core',
+    'pipeline',
 )
 
 # See: http://serk.io/ref/settings/#installed-apps
