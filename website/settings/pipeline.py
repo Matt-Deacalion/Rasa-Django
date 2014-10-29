@@ -3,6 +3,10 @@
 # ──┤ PIPELINE CONFIGURATION ├────────────────────────────────────────────────┐
 PIPELINE_ENABLED = True
 
+PIPELINE_COMPILERS = (
+    'pipeline_compass.compass.CompassCompiler',
+)
+
 PIPELINE_JS = {
     'app': {
         'source_filenames': (
