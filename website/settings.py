@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'rasa.urls'
+ROOT_URLCONF = 'urls'
 
-WSGI_APPLICATION = 'rasa.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
