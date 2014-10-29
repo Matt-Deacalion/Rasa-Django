@@ -153,7 +153,9 @@ DJANGO_APPS = (
 )
 
 # Apps specific for this project go here
-LOCAL_APPS = ()
+LOCAL_APPS = (
+    'apps.core',
+)
 
 # See: http://serk.io/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
