@@ -1,2 +1,3 @@
-// Rasa Django, main Javascript app.
-console.log('Hi, there!');
+// Foundation JavaScript
+// Documentation can be found at: http://foundation.zurb.com/docs
+$(document).foundation();

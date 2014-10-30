@@ -180,8 +180,10 @@ INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
 
 # ──┤ PIPELINE CONFIGURATION ├────────────────────────────────────────────────┐
 from .pipeline import (
+    PIPELINE_JS_COMPRESSOR,
     PIPELINE_ENABLED,
     PIPELINE_COMPILERS,
+    PIPELINE_COMPASS_ARGUMENTS,
     PIPELINE_JS,
     PIPELINE_CSS,
 )
