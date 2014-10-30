@@ -86,6 +86,18 @@ STATICFILES_DIRS = (
 
 # See: http://serk.io/ref/settings/#std:setting-STATICFILES_STORAGE
 STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
+
+# See: http://serk.io/ref/settings/#std:setting-STATICFILES_FINDERS
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'pipeline.finders.FileSystemFinder',
+    'pipeline.finders.AppDirectoriesFinder',
+    'pipeline.finders.PipelineFinder',
+    'pipeline.finders.CachedFileFinder',
+)
+
+# Path to the Bower components directory
+BOWER_COMPONENTS_ROOT = SITE_ROOT / 'static' / 'bower_components'
 # ────────────────────────────────────────────────────────────────────────────┘
 
 

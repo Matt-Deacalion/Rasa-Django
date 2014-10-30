@@ -3,3 +3,6 @@ __pycache__/
 
 # SQLite database
 db.sqlite3
+
+# Bower dependencies
+bower_components/

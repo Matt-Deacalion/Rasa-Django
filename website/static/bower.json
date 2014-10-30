@@ -1,0 +1,22 @@
+{
+  "name": "Rasa Django",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Matt-Deacalion/Rasa-Django",
+  "authors": [
+    "Matt Deacalion Stevens <matt@dirtymonkey.co.uk>"
+  ],
+  "description": "Client side dependencies for Rasa Django, a project template for the latest version of Django.",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
