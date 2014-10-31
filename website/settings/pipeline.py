@@ -3,7 +3,8 @@
 from .base import BOWER_COMPONENTS_ROOT
 
 # ──┤ PIPELINE CONFIGURATION ├────────────────────────────────────────────────┐
-PIPELINE_JS_COMPRESSOR = None
+PIPELINE_CSS_COMPRESSOR = 'pipeline.compressors.NoopCompressor'
+PIPELINE_JS_COMPRESSOR = 'pipeline.compressors.NoopCompressor'
 
 PIPELINE_ENABLED = True
 
